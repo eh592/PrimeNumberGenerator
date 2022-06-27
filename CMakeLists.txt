@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 3.13.4)
 
 project(PrimeNumberGenerator)
 
-add_executable(${PROJECT_NAME} primeNumbergenerator.cpp)
+add_executable(${PROJECT_NAME} primeNumberGenerator.cpp)
