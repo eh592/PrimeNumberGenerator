@@ -13,6 +13,10 @@ jobs:
 
   steps:
   - task: CMake@1
+    displayName: 'CMake ..'
+    inputs:
+      cmakeArgs: '..'
+  - task: CMake@1
     displayName: 'CMake --build . --config Release'
     inputs:
       cmakeArgs: '--build . --config Release'
