@@ -13,9 +13,9 @@ jobs:
 
   steps:
   - task: CMake@1
-    displayName: 'CMake --build .\build --config Release'
+    displayName: 'CMake --build . --config Release'
     inputs:
-      cmakeArgs: '--build .\build --config Release'
+      cmakeArgs: '--build . --config Release'
 
   - task: CMake@1
     displayName: 'CMake -E chdir .\build cpack -C Debug -G 7Z'
