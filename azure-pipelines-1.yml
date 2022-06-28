@@ -2,7 +2,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- main
 
 jobs:
 - job: Windows
@@ -13,19 +13,14 @@ jobs:
 
   steps:
   - task: CMake@1
-    displayName: 'CMake ..'
+    displayName: 'CMake --build . --config Release'
     inputs:
-      cmakeArgs: '..'
+      cmakeArgs: '--build . --config Release'
 
   - task: CMake@1
-    displayName: 'CMake --build . --config Debug'
+    displayName: 'CMake -E chdir .\build cpack -C Debug -G 7Z'
     inputs:
-      cmakeArgs: '--build . --config Debug'
-
-  - task: CMake@1
-    displayName: 'CMake -E chdir . cpack -C Debug -G 7Z'
-    inputs:
-      cmakeArgs: '-E chdir . cpack -C Debug -G 7Z'
+      cmakeArgs: '-E chdir .\build cpack -C Debug -G 7Z'
 
   - task: CopyFiles@2
     displayName: 'Copy CPack Files to: $(Build.ArtifactStagingDirectory)'
