@@ -2,9 +2,22 @@ cmake_minimum_required(VERSION 3.5)
 
 project(PrimeNumberGenerator)
 
+add_library(PrimeNumberGenerator
+	./primeNumberGenerator.cpp
+)
 #set(SOURCES ./PrimeNumberGenerator.cpp)
+target_include_directories(PrimeNumberGenerator
+	PUBLIC
+        PrimeNumberGenerator
+)
 
-add_executable(${PROJECT_NAME} primeNumberGenerator.cpp)
+target_compile_options(PrimeNumberGenerator
+	PRIVATE
+		$<$<OR:$<CXX_COMPILER_ID:Clang>,$<CXX_COMPILER_ID:AppleClang>,$<CXX_COMPILER_ID:GNU>>:
+			-Werror -Wall -Wextra>
+		$<$<CXX_COMPILER_ID:MSVC>:
+			/W4>
+)
 
 set(CPACK_PACKAGE_NAME "PrimeNumberGenerator")
 set(CPACK_PACKAGE_VENDOR "eric-huynh.com")
