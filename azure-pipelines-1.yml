@@ -2,7 +2,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- main
 
 jobs:
 - job: Windows
