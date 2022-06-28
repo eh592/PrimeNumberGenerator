@@ -7,7 +7,7 @@ trigger:
 jobs:
 - job: Windows
   pool:
-    name: Home Pool
+    name: HomeSystem
     demands:
     - cmake
 
@@ -21,19 +21,6 @@ jobs:
     displayName: 'CMake --build . --config Debug'
     inputs:
       cmakeArgs: '--build . --config Debug'
-
-  - task: BatchScript@1
-    displayName: 'Catch2 Unit Tests'
-    inputs:
-      filename: 'build\Debug\unit_tests.exe'
-    enabled: false
-    continueOnError: true
-
-  - task: CMake@1
-    displayName: 'CMake -E chdir . ctest -C Debug -j (Get-WmiObject -class Win32_processor | ft -HideTableHeaders NumberOfCores | Out-String).trim()'
-    inputs:
-      cmakeArgs: '-E chdir . ctest -C Debug -j (Get-WmiObject -class Win32_processor | ft -HideTableHeaders NumberOfCores | Out-String).trim()'
-    continueOnError: true
 
   - task: CMake@1
     displayName: 'CMake -E chdir . cpack -C Debug -G 7Z'
