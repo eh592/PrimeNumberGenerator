@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Eric Huynh\source\repos\playground\c++_fun\PrimeNumberGenerator\build\CMakeFiles\023df0c7b3cb204ab2b272f1616af3b2\generate.stamp.rule">
+    <CustomBuild Include="C:\PrimeNumberGenerator\build\CMakeFiles\7e300df9ea3c981c4af287ffdab275e4\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{CD310D9F-0E1E-3603-B744-7E0ABAB54BBE}</UniqueIdentifier>
+      <UniqueIdentifier>{2663EDD5-4957-37D5-83BC-1DEA455AEBB4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

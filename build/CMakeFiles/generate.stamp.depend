@@ -1,4 +1,9 @@
 # CMake generation dependency list for this directory.
+C:/PrimeNumberGenerator/CMakeLists.txt
+C:/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
+C:/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake
+C:/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
+C:/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeSystem.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCCompilerABI.c
 C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCInformation.cmake
@@ -92,8 +97,3 @@ C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
-C:/Users/Eric Huynh/source/repos/playground/c++_fun/PrimeNumberGenerator/CMakeLists.txt
-C:/Users/Eric Huynh/source/repos/playground/c++_fun/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
-C:/Users/Eric Huynh/source/repos/playground/c++_fun/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake
-C:/Users/Eric Huynh/source/repos/playground/c++_fun/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
-C:/Users/Eric Huynh/source/repos/playground/c++_fun/PrimeNumberGenerator/build/CMakeFiles/3.23.2/CMakeSystem.cmake
