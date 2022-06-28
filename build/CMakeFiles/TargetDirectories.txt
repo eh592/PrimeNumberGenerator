@@ -1,4 +1,0 @@
-C:/PrimeNumberGenerator/build/CMakeFiles/PrimeNumberGenerator.dir
-C:/PrimeNumberGenerator/build/CMakeFiles/PACKAGE.dir
-C:/PrimeNumberGenerator/build/CMakeFiles/ALL_BUILD.dir
-C:/PrimeNumberGenerator/build/CMakeFiles/ZERO_CHECK.dir
