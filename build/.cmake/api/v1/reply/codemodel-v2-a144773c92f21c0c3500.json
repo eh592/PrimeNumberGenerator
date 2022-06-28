@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.13.4"
+						"string" : "3.5"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -43,14 +43,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-2d871454ce4b158a17ab.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-cf644a624672070a266f.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PrimeNumberGenerator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PrimeNumberGenerator-Debug-b9469547629c2d1f098c.json",
+					"jsonFile" : "target-PrimeNumberGenerator-Debug-1b3ecfa913ff2970a0aa.json",
 					"name" : "PrimeNumberGenerator",
 					"projectIndex" : 0
 				},
@@ -71,7 +71,7 @@
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.13.4"
+						"string" : "3.5"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -105,14 +105,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-2d871454ce4b158a17ab.json",
+					"jsonFile" : "target-ALL_BUILD-Release-cf644a624672070a266f.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PrimeNumberGenerator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PrimeNumberGenerator-Release-08e940678a5d8d9de6af.json",
+					"jsonFile" : "target-PrimeNumberGenerator-Release-a9292025b77474359e3f.json",
 					"name" : "PrimeNumberGenerator",
 					"projectIndex" : 0
 				},
@@ -133,7 +133,7 @@
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.13.4"
+						"string" : "3.5"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -167,14 +167,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2d871454ce4b158a17ab.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cf644a624672070a266f.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PrimeNumberGenerator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PrimeNumberGenerator-MinSizeRel-9a29a455e7ea920c780c.json",
+					"jsonFile" : "target-PrimeNumberGenerator-MinSizeRel-f734d8db78eedc5ace58.json",
 					"name" : "PrimeNumberGenerator",
 					"projectIndex" : 0
 				},
@@ -195,7 +195,7 @@
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.13.4"
+						"string" : "3.5"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -229,14 +229,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2d871454ce4b158a17ab.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cf644a624672070a266f.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PrimeNumberGenerator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PrimeNumberGenerator-RelWithDebInfo-c4c45ef942aeaf73c6e9.json",
+					"jsonFile" : "target-PrimeNumberGenerator-RelWithDebInfo-364b72d0e5d5ad78ff6c.json",
 					"name" : "PrimeNumberGenerator",
 					"projectIndex" : 0
 				},
